@@ -1,7 +1,7 @@
 .header__menu__hamburger {
   width: 24px;
   height: 24px;
-  background-image: url("../assets/img/menu-hamburger.svg");
+  background-image: url("../assets/icons/menu-hamburger.svg");
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;

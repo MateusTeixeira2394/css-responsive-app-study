@@ -30,6 +30,6 @@
     font-weight: 400;
     text-align: center;
     color: var(--my-white);
-    background: url("../assets/img/magnifier.svg") no-repeat;
+    background: url("../assets/icons/magnifier.svg") no-repeat;
     background-position: 1em;
 }
