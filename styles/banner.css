@@ -5,17 +5,17 @@
     padding: 2.5em 2em;
 }
 
-.banner__title {
+.banner_title {
     font-size: 18px;
     font-weight: 700;
 }
 
-.banner__text {
+.banner_text {
     font-weight: 500;
     margin: 1em 0;
 }
 
-.banner__input__search {
+.banner_input_search {
     background-color: transparent;
     border: 1px solid var(--my-white);
     color: var(--my-white);
@@ -24,7 +24,7 @@
     width: 100%;
 }
 
-.banner__input__search::placeholder {
+.banner_input_search::placeholder {
     font-family: var(--main-font);
     font-size: 14px;
     font-weight: 400;

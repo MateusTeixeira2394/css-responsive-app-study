@@ -17,44 +17,44 @@
 
 <body>
     <header class="header">
-        <div class="header__container">
-            <input type="checkbox" id="menu__hamburger" class="container__button">
-            <label for="menu__hamburger">
-                <span class="header__menu__hamburger"></span>
+        <div class="header_container">
+            <input type="checkbox" id="menu_hamburger" class="container_button">
+            <label for="menu_hamburger">
+                <span class="header_menu_hamburger"></span>
             </label>
-            <ul class="list__menu">
-                <li class="list__menu__title">
+            <ul class="list_menu">
+                <li class="list_menu_title">
                     Categories
                 </li>
-                <li class="list__menu__item">
-                    <a href="#" class="list__menu__link">
+                <li class="list_menu_item">
+                    <a href="#" class="list_menu_link">
                         Programming
                     </a>
                 </li>
-                <li class="list__menu__item">
-                    <a href="#" class="list__menu__link">
+                <li class="list_menu_item">
+                    <a href="#" class="list_menu_link">
                         Front-end
                     </a>
                 </li>
-                <li class="list__menu__item">
-                    <a href="#" class="list__menu__link">
+                <li class="list_menu_item">
+                    <a href="#" class="list_menu_link">
                         Infrastructure
                     </a>
                 </li>
-                <li class="list__menu__item">
-                    <a href="#" class="list__menu__link">
+                <li class="list_menu_item">
+                    <a href="#" class="list_menu_link">
                         Business
                     </a>
                 </li>
-                <li class="list__menu__item">
-                    <a href="#" class="list__menu__link">
+                <li class="list_menu_item">
+                    <a href="#" class="list_menu_link">
                         Design & UX
                     </a>
                 </li>
             </ul>
             <img src="./assets/icons/logo.svg" alt="Alura Books logo">
         </div>
-        <div class="header__container">
+        <div class="header_container">
             <a href="#">
                 <img src="./assets/icons/favorites.svg" alt="My favorites logo">
             </a>
@@ -66,14 +66,16 @@
             </a>
         </div>
     </header>
+
     <section class="banner">
-        <h2 class="banner__title">Já sabe por onde começar?</h2>
-        <p class="banner__text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-        <input type="text" class="banner__input__search" placeholder="Qual será sua próxima leitura?">
-    </section>
+        <h2 class="banner_title">Já sabe por onde começar?</h2>
+        <p class="banner_text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="text" class="banner_input_search" placeholder="Qual será sua próxima leitura?">
+    </section>`
+
     <section class="carousel">
 
-        <h2 class="carousel__title">Últimos Lançamentos</h2>
+        <h2 class="carousel_title">Últimos Lançamentos</h2>
 
         <!-- Slider main container -->
         <div class="swiper">
@@ -102,31 +104,80 @@
 
     </section>
 
+    <section class="card">
+        <div class="card_container">
+            <div class="card_container_description">
+                <h2 class="card_title">Talvez você também se interesse por...</h2>
+                <h3 class="card_subtitle">Angular 11 e Firebase</h3>
+                <p class="card_text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            </div>
+            <img src="./assets/img/Angular.png" alt="Angular image" class="card_img">
+        </div>
+        <div class="card_container_buttons">
+            <div class="card_container_buttons_icons">
+                <img src="./assets//icons/like.svg" alt="Like icon" class="card_container_buttons_img">
+                <img src="./assets//icons/shopping-bag.svg" alt="Shopping bag icon" class="card_container_buttons_img">
+            </div>
+            <a href="#" class="card_container_button_know_more">Saiba mais</a>
+        </div>
+    </section>
+
+    <section class="carousel">
+
+        <h2 class="carousel_title">Mais vendidos</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./assets/img/Gestão2.svg" alt="Livro de Gestão"></div>
+                <div class="swiper-slide"><img src="./assets/img/Construct2.svg" alt="Livro de Construct 2"></div>
+                <div class="swiper-slide"><img src="./assets/img/MetricasAgeis.svg" alt="Livro de Métricas Ágeis"></div>
+                <div class="swiper-slide"><img src="./assets/img/Arquitetura.svg" alt="Livro de Arquitetura"></div>
+                <div class="swiper-slide"><img src="./assets/img/Tuning.svg" alt="Livro de Turing SQL"></div>
+                <div class="swiper-slide"><img src="./assets/img/Portugol.svg" alt="Livro de Portugol"></div>
+                <div class="swiper-slide"><img src="./assets/img/ApacheKafka.svg" alt="Livro de Apache Kafka"></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+    </section>
+    
+    <section class="card">
+        
+        <div class="card_container">
+            <div class="card_container_description">
+                <img src="./assets/icons/stars.png" alt="Starts icon" class="stars_icon">
+                <h2 class="card_title">Autora do Mês</h2>
+                <h3 class="card_subtitle">Juliana Agarikov</h3>
+                <p class="card_text">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+            </div>
+            <img src="./assets/img/writer-profile.png" alt="Writer Profile image" class="card_img">
+        </div>
+        <div class="card_container_buttons">
+            <div class="card_container_buttons_icons">
+                <img src="./assets//icons/like.svg" alt="Like icon" class="card_container_buttons_img">
+                <img src="./assets//icons/shopping-bag.svg" alt="Shopping bag icon" class="card_container_buttons_img">
+            </div>
+            <a href="#" class="card_container_button_know_more">Saiba mais</a>
+        </div>
+    </section>
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-    <script>
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            slidesPerView: 3,
-            spaceBetween: 10,
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
-        });
-    </script>
+    <script src="./javascript/my-swipe.js"></script>
 
 </body>
 
