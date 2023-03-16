@@ -1,0 +1,14 @@
+hr{
+    margin: 0px;
+}
+
+.footer{
+    background-color: var(--my-white);
+    padding: 16px;
+}
+
+.footer_text{
+    color: var(--my-black);
+    font-size: 16px;
+    font-family: var(--main-font);
+}
