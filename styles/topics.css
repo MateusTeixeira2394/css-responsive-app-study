@@ -32,3 +32,13 @@
     color: var(--my-white);
     text-decoration: none;
 }
+
+
+@media screen and (min-width: 820px) {
+
+    .topics_title,
+    .topics_link{
+        font-size: 24px;
+    }
+
+}
