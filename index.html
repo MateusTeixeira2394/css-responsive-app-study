@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/reset.css">
@@ -16,6 +17,7 @@
 </head>
 
 <body>
+
     <header class="header">
         <div class="header_container">
             <input type="checkbox" id="menu_hamburger" class="container_button">
@@ -24,11 +26,11 @@
             </label>
             <ul class="list_menu">
                 <li class="list_menu_title">
-                    Categories
+                    Categoria
                 </li>
                 <li class="list_menu_item">
                     <a href="#" class="list_menu_link">
-                        Programming
+                        Programação
                     </a>
                 </li>
                 <li class="list_menu_item">
@@ -38,7 +40,7 @@
                 </li>
                 <li class="list_menu_item">
                     <a href="#" class="list_menu_link">
-                        Infrastructure
+                        Infraestrutura
                     </a>
                 </li>
                 <li class="list_menu_item">
@@ -52,16 +54,60 @@
                     </a>
                 </li>
             </ul>
-            <img src="./assets/icons/logo.svg" alt="Alura Books logo">
+            <img src="./assets/icons/logo.svg" alt="Alura Books logo" />
+            <h2 class="header_title"><span>Alura</span>Books</h2>
         </div>
         <div class="header_container">
-            <a href="#">
+            <ul class="header_container_list">
+                <input type="checkbox" id="options_menu" class="options_menu">
+                <label for="options_menu">
+                    <li class="header_list_item">
+                        <p>Categorias</p>
+                    </li>
+                </label>
+                <ul class="list_menu">
+                    <li class="list_menu_item">
+                        <a href="#" class="list_menu_link">
+                            Programação
+                        </a>
+                    </li>
+                    <li class="list_menu_item">
+                        <a href="#" class="list_menu_link">
+                            Front-end
+                        </a>
+                    </li>
+                    <li class="list_menu_item">
+                        <a href="#" class="list_menu_link">
+                            Infraestrutura
+                        </a>
+                    </li>
+                    <li class="list_menu_item">
+                        <a href="#" class="list_menu_link">
+                            Business
+                        </a>
+                    </li>
+                    <li class="list_menu_item">
+                        <a href="#" class="list_menu_link">
+                            Design & UX
+                        </a>
+                    </li>
+                </ul>
+                <li class="header_list_item">
+                    <a href="#" class="header_link">Favoritos</a>
+                </li>
+                <li class="header_list_item">
+                    <a href="#" class="header_link">Minha Estante</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header_container">
+            <a href="#" class="header_like_icon header_icon_link">
                 <img src="./assets/icons/favorites.svg" alt="My favorites logo">
             </a>
-            <a href="#">
+            <a href="#" class="header_icon_link">
                 <img src="./assets/icons/shopping.svg" alt="Shopping cart logo">
             </a>
-            <a href="#">
+            <a href="#" class="header_icon_link">
                 <img src="./assets/icons/user.svg" alt="User logo">
             </a>
         </div>
