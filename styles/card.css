@@ -4,10 +4,14 @@
     border-radius: 10px;
     padding: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
 }
 
-.card_container{
+.card_container_left{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card_container_description{
@@ -67,6 +71,7 @@
 .card_container_buttons_icons{
     display: flex;
     align-items: center;
+    padding: 0 0 16px 16px;
 }
 
 .card_container_buttons_icons img:nth-of-type(2){
@@ -77,4 +82,12 @@
     margin-bottom: 8px;
     height: 15px;
     width: fit-content;
+}
+
+
+@media screen and (min-width: 820px) {
+    .card{
+        width: 60%;
+        margin: 50px auto; 
+    }
 }
