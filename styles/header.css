@@ -86,9 +86,14 @@
   display: none;
 }
 
+.header_icon_title{
+  display: none;
+}
+
 @media screen and (min-width: 820px) {
   .header {
     justify-content: space-around;
+    height: 80px;
   }
 
   .header_menu_hamburger,
@@ -138,6 +143,45 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+
+}
+
+@media screen and (min-width: 1728px) {
+
+  .header{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header_icon_title{
+    display: block;
+  }
+
+  .header_icon_link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--my-black);
+    font-family: var(--main-font);
+    font-weight: 400;
+  }
+
+  .header_like_icon {
+    display: none;
+  }
+
+  .header_container:nth-of-type(1){
+    margin-left: 80px;
+  }  
+
+  .header_container:nth-of-type(2){
+    margin-right: auto;
+  }
+
+  .header_container:nth-of-type(3){
+    margin-right: 80px;
   }
 
 }
