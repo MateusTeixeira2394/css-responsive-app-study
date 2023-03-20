@@ -52,3 +52,19 @@ hr{
     }
 
 }
+
+@media screen and (min-width: 1728px) {
+
+    .footer_list{
+        border-left: 1px solid var(--my-grey);
+    }
+
+    .footer_list li{
+        margin-left: 20px;
+    }
+
+    .footer{
+        padding: 56px 0;
+    }
+
+}
